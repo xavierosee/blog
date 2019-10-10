@@ -1,0 +1,7 @@
+{% if site.instafeed == true %}
+  <div class="instagram-box">
+    <a href="{{site.instagram-profile}}" class="instagram-title" target="_blank"><i class="ion ion-logo-instagram"></i> Follow Me!</a>
+    <ul id="instafeed" class="instagram list-reset" data-userId="{{site.userID}}"
+    data-accessToken="{{site.accessToken}}"></ul>
+  </div>
+{% endif %}

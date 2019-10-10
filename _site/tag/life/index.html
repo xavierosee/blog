@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Melotta</title>
+  <meta name='description' content='Melotta is a modern and minimal Jekyll theme for sharing your ideas.'>
+
+  <link rel="canonical" href="http://localhost:4000/tag/life/">
+  <link rel="alternate" type="application/rss+xml" title="Melotta" href="/feed.xml">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+  <!-- Ionicons -->
+  <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
+
+  <style>
+  
+  .text-left{text-align:left}.text-right{text-align:right}.text-center{text-align:center}.text-justify{text-align:justify}.block{display:block}.inline-block{display:inline-block}.inline{display:inline}.vertical-center{display:flex;align-items:center;justify-content:center}.show{display:block}.hide{display:none}.invisible{visibility:hidden}.float-left{float:left}.float-right{float:right}.no-padding{padding:0}.no-margin{margin:0}.list-reset{list-style-type:none;margin:0;padding:0}.clearfix::after,.clearfix ::before{content:"";display:table;clear:both}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px;word-wrap:normal !important}/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}h1{font-size:2em;margin:0.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace, monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:0.35em 0.75em 0.625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,dl,dd,ol,ul,fieldset,legend,figure,hr{margin:0;padding:0}li>ul,li>ol{margin-bottom:0}table{border-collapse:collapse;border-spacing:0}h1,h2,h3,h4,h5,h6,ul,ol,dl,blockquote,p,address,hr,table,fieldset,figure,pre{margin-bottom:30px}ul,ol,dd{margin-left:20px}.highlight{background:#f6f7f9}.highlighter-rouge .highlight{background:#eef}.highlight .c{color:#998;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k{font-weight:bold}.highlight .o{font-weight:bold}.highlight .cm{color:#998;font-style:italic}.highlight .cp{color:#999;font-weight:bold}.highlight .c1{color:#998;font-style:italic}.highlight .cs{color:#999;font-weight:bold;font-style:italic}.highlight .gd{color:#000;background-color:#fdd}.highlight .gd .x{color:#000;background-color:#faa}.highlight .ge{font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .gi .x{color:#000;background-color:#afa}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:bold}.highlight .gu{color:#aaa}.highlight .gt{color:#a00}.highlight .kc{font-weight:bold}.highlight .kd{font-weight:bold}.highlight .kp{font-weight:bold}.highlight .kr{font-weight:bold}.highlight .kt{color:#458;font-weight:bold}.highlight .m{color:#099}.highlight .s{color:#d14}.highlight .na{color:#008080}.highlight .nb{color:#0086B3}.highlight .nc{color:#458;font-weight:bold}.highlight .no{color:#008080}.highlight .ni{color:#800080}.highlight .ne{color:#900;font-weight:bold}.highlight .nf{color:#900;font-weight:bold}.highlight .nn{color:#555}.highlight .nt{color:#000080}.highlight .nv{color:#008080}.highlight .ow{font-weight:bold}.highlight .w{color:#bbb}.highlight .mf{color:#099}.highlight .mh{color:#099}.highlight .mi{color:#099}.highlight .mo{color:#099}.highlight .sb{color:#d14}.highlight .sc{color:#d14}.highlight .sd{color:#d14}.highlight .s2{color:#d14}.highlight .se{color:#d14}.highlight .sh{color:#d14}.highlight .si{color:#d14}.highlight .sx{color:#d14}.highlight .sr{color:#009926}.highlight .s1{color:#d14}.highlight .ss{color:#990073}.highlight .bp{color:#999}.highlight .vc{color:#008080}.highlight .vg{color:#008080}.highlight .vi{color:#008080}.highlight .il{color:#099}.container{max-width:1300px;padding-left:20px;padding-right:20px;margin:0 auto}.container-full{max-width:100%;padding-left:20px;padding-right:20px;margin:0 auto}.row{display:flex;flex-wrap:wrap;flex:0 1 auto;flex-direction:row;box-sizing:border-box;margin-left:-20px;margin-right:-20px}.col{padding-left:20px;padding-right:20px}[class^="col-"]{flex:auto}.col-0{width:0%}.col-1{width:8.3333333333%}.col-2{width:16.6666666667%}.col-3{width:25%}.col-4{width:33.3333333333%}.col-5{width:41.6666666667%}.col-6{width:50%}.col-7{width:58.3333333333%}.col-8{width:66.6666666667%}.col-9{width:75%}.col-10{width:83.3333333333%}.col-11{width:91.6666666667%}.col-12{width:100%}.push-0{margin-left:0%}.push-1{margin-left:8.3333333333%}.push-2{margin-left:16.6666666667%}.push-3{margin-left:25%}.push-4{margin-left:33.3333333333%}.push-5{margin-left:41.6666666667%}.push-6{margin-left:50%}.push-7{margin-left:58.3333333333%}.push-8{margin-left:66.6666666667%}.push-9{margin-left:75%}.push-10{margin-left:83.3333333333%}.push-11{margin-left:91.6666666667%}.push-12{margin-left:100%}.pull-0{margin-right:0%}.pull-1{margin-right:8.3333333333%}.pull-2{margin-right:16.6666666667%}.pull-3{margin-right:25%}.pull-4{margin-right:33.3333333333%}.pull-5{margin-right:41.6666666667%}.pull-6{margin-right:50%}.pull-7{margin-right:58.3333333333%}.pull-8{margin-right:66.6666666667%}.pull-9{margin-right:75%}.pull-10{margin-right:83.3333333333%}.pull-11{margin-right:91.6666666667%}.pull-12{margin-right:100%}@media (max-width: 992px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media (max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media (max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}@media (max-width: 992px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media (max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media (max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}@media (max-width: 992px){.col-d-0{width:0%}.col-d-1{width:8.3333333333%}.col-d-2{width:16.6666666667%}.col-d-3{width:25%}.col-d-4{width:33.3333333333%}.col-d-5{width:41.6666666667%}.col-d-6{width:50%}.col-d-7{width:58.3333333333%}.col-d-8{width:66.6666666667%}.col-d-9{width:75%}.col-d-10{width:83.3333333333%}.col-d-11{width:91.6666666667%}.col-d-12{width:100%}.push-d-0{margin-left:0%}.push-d-1{margin-left:8.3333333333%}.push-d-2{margin-left:16.6666666667%}.push-d-3{margin-left:25%}.push-d-4{margin-left:33.3333333333%}.push-d-5{margin-left:41.6666666667%}.push-d-6{margin-left:50%}.push-d-7{margin-left:58.3333333333%}.push-d-8{margin-left:66.6666666667%}.push-d-9{margin-left:75%}.push-d-10{margin-left:83.3333333333%}.push-d-11{margin-left:91.6666666667%}.push-d-12{margin-left:100%}.pull-d-0{margin-right:0%}.pull-d-1{margin-right:8.3333333333%}.pull-d-2{margin-right:16.6666666667%}.pull-d-3{margin-right:25%}.pull-d-4{margin-right:33.3333333333%}.pull-d-5{margin-right:41.6666666667%}.pull-d-6{margin-right:50%}.pull-d-7{margin-right:58.3333333333%}.pull-d-8{margin-right:66.6666666667%}.pull-d-9{margin-right:75%}.pull-d-10{margin-right:83.3333333333%}.pull-d-11{margin-right:91.6666666667%}.pull-d-12{margin-right:100%}}@media (max-width: 768px){.col-t-0{width:0%}.col-t-1{width:8.3333333333%}.col-t-2{width:16.6666666667%}.col-t-3{width:25%}.col-t-4{width:33.3333333333%}.col-t-5{width:41.6666666667%}.col-t-6{width:50%}.col-t-7{width:58.3333333333%}.col-t-8{width:66.6666666667%}.col-t-9{width:75%}.col-t-10{width:83.3333333333%}.col-t-11{width:91.6666666667%}.col-t-12{width:100%}.push-t-0{margin-left:0%}.push-t-1{margin-left:8.3333333333%}.push-t-2{margin-left:16.6666666667%}.push-t-3{margin-left:25%}.push-t-4{margin-left:33.3333333333%}.push-t-5{margin-left:41.6666666667%}.push-t-6{margin-left:50%}.push-t-7{margin-left:58.3333333333%}.push-t-8{margin-left:66.6666666667%}.push-t-9{margin-left:75%}.push-t-10{margin-left:83.3333333333%}.push-t-11{margin-left:91.6666666667%}.push-t-12{margin-left:100%}.pull-t-0{margin-right:0%}.pull-t-1{margin-right:8.3333333333%}.pull-t-2{margin-right:16.6666666667%}.pull-t-3{margin-right:25%}.pull-t-4{margin-right:33.3333333333%}.pull-t-5{margin-right:41.6666666667%}.pull-t-6{margin-right:50%}.pull-t-7{margin-right:58.3333333333%}.pull-t-8{margin-right:66.6666666667%}.pull-t-9{margin-right:75%}.pull-t-10{margin-right:83.3333333333%}.pull-t-11{margin-right:91.6666666667%}.pull-t-12{margin-right:100%}}@media (max-width: 576px){.col-m-0{width:0%}.col-m-1{width:8.3333333333%}.col-m-2{width:16.6666666667%}.col-m-3{width:25%}.col-m-4{width:33.3333333333%}.col-m-5{width:41.6666666667%}.col-m-6{width:50%}.col-m-7{width:58.3333333333%}.col-m-8{width:66.6666666667%}.col-m-9{width:75%}.col-m-10{width:83.3333333333%}.col-m-11{width:91.6666666667%}.col-m-12{width:100%}.push-m-0{margin-left:0%}.push-m-1{margin-left:8.3333333333%}.push-m-2{margin-left:16.6666666667%}.push-m-3{margin-left:25%}.push-m-4{margin-left:33.3333333333%}.push-m-5{margin-left:41.6666666667%}.push-m-6{margin-left:50%}.push-m-7{margin-left:58.3333333333%}.push-m-8{margin-left:66.6666666667%}.push-m-9{margin-left:75%}.push-m-10{margin-left:83.3333333333%}.push-m-11{margin-left:91.6666666667%}.push-m-12{margin-left:100%}.pull-m-0{margin-right:0%}.pull-m-1{margin-right:8.3333333333%}.pull-m-2{margin-right:16.6666666667%}.pull-m-3{margin-right:25%}.pull-m-4{margin-right:33.3333333333%}.pull-m-5{margin-right:41.6666666667%}.pull-m-6{margin-right:50%}.pull-m-7{margin-right:58.3333333333%}.pull-m-8{margin-right:66.6666666667%}.pull-m-9{margin-right:75%}.pull-m-10{margin-right:83.3333333333%}.pull-m-11{margin-right:91.6666666667%}.pull-m-12{margin-right:100%}}.slick-slider{position:relative;display:block;box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.slick-list{position:relative;display:block;overflow:hidden;margin:0;padding:0}.slick-list:focus{outline:none}.slick-list.dragging{cursor:pointer}.slick-slider .slick-track,.slick-slider .slick-list{-webkit-transform:translate3d(0, 0, 0);-moz-transform:translate3d(0, 0, 0);-ms-transform:translate3d(0, 0, 0);-o-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}.slick-track{position:relative;top:0;left:0;display:block;margin-left:auto;margin-right:auto}.slick-track:before,.slick-track:after{display:table;content:''}.slick-track:after{clear:both}.slick-loading .slick-track{visibility:hidden}.slick-slide{display:none;float:left;height:100%;min-height:1px}[dir='rtl'] .slick-slide{float:right}.slick-slide img{display:block}.slick-slide.slick-loading img{display:none}.slick-slide.dragging img{pointer-events:none}.slick-initialized .slick-slide{display:block}.slick-loading .slick-slide{visibility:hidden}.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}.slick-arrow.slick-hidden{display:none}img[data-action="zoom"]{cursor:pointer;cursor:-webkit-zoom-in;cursor:-moz-zoom-in}.zoom-img,.zoom-img-wrap{position:relative;z-index:666;-webkit-transition:all 300ms;-o-transition:all 300ms;transition:all 300ms}img.zoom-img{cursor:pointer;cursor:-webkit-zoom-out;cursor:-moz-zoom-out}.zoom-overlay{z-index:420;background:#fff;position:fixed;top:0;left:0;right:0;bottom:0;pointer-events:none;opacity:0;-webkit-transition:opacity 300ms;-o-transition:opacity 300ms;transition:opacity 300ms}.zoom-overlay-open .zoom-overlay{opacity:1}.zoom-overlay-open,.zoom-overlay-transitioning{cursor:default}*,*::after,*::before{box-sizing:border-box}body{font-family:"Lora",Georgia,"Times New Roman",serif;font-size:18px;line-height:36px;color:#17181E;background-color:#fff;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body input,body textarea{border:1px solid #F6F7F9;outline:none}body input:focus:required:invalid,body textarea:focus:required:invalid{border-color:#e02f40}body input:required:valid,body textarea:required:valid{border-color:#34a74e}@media only screen and (max-width: 576px){body{font-size:16px;line-height:29px}}::placeholder{color:#666}*::selection{color:#17181E;background-color:rgba(255,207,178,0.4)}h1,h2,h3,h4,h5,h6{font-family:"Josefin Sans",Helvetica Neue,Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3}h1{font-size:36px}h2{font-size:28px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}blockquote{padding-left:20px;font-family:'Josefin Sans', sans-serif;font-size:24px;line-height:34px;border-left:3px solid #FFCFB2;font-style:normal}blockquote cite{font-size:16px;font-style:normal;color:#4A4B51}blockquote cite:before{content:'\2014' '\00a0'}@media only screen and (max-width: 576px){blockquote{font-size:21px;line-height:31px}}pre{overflow:auto;padding:15px;margin-bottom:0;font-size:14px;white-space:pre-wrap;word-wrap:break-word;word-break:break-all}img,.zoom-img-wrap{max-width:100%;height:auto;vertical-align:middle}img+em,.zoom-img-wrap+em{display:block;margin-top:15px;font-family:'Josefin Sans', sans-serif;font-size:14px;line-height:22px;font-style:normal;font-weight:normal;text-align:center;color:#4A4B51}a{text-decoration:none;color:#17181E;transition:all 0.35s}a:hover{color:#4A4B51}hr{display:block;height:1px;margin:50px 0;border:0;background:#eeeeee}.top{position:fixed;bottom:40px;right:-100px;z-index:1;width:40px;height:40px;line-height:40px;text-align:center;background-color:#F6F7F9;color:#17181E;cursor:pointer;transition:all .25s ease}.top.is-active{right:40px}@media only screen and (max-width: 768px){.top{bottom:25px}.top.is-active{right:30px}}.wrapper-page{margin-top:120px;margin-bottom:80px}@media only screen and (max-width: 576px){.wrapper-page{margin-top:80px}}.header{position:fixed;top:0;left:0;z-index:10;width:100%;height:auto;background:white;transition:all 0.35s}.header.is-hide{top:-120px}.header .header__overlay{position:fixed;top:0;right:0;bottom:0;left:0;z-index:10;background-color:rgba(17,17,17,0.7);cursor:pointer;opacity:0;visibility:hidden;transition:all 0.5s ease}@media only screen and (max-width: 768px){.header .header__overlay.is-visible{opacity:1;visibility:visible}}.header__inner{position:relative;display:flex;align-items:center;height:120px}.header__inner:after{content:"";position:absolute;bottom:0;left:0;right:0;display:block;width:calc(100% - 40px);height:1px;margin:0 auto;background:#dfdfdf}.header__inner.without-border:after{content:none}@media only screen and (max-width: 576px){.header__inner{height:80px}}.logo__link{font-family:'Lora', sans-serif;font-size:20px;line-height:26px;font-weight:700;text-transform:uppercase;letter-spacing:5px}.logo__link:hover{color:#17181E}.logo__image{max-height:50px}.main-nav{margin-left:auto}@media only screen and (max-width: 992px){.main-nav{position:fixed;top:0;left:inherit;right:-300px;bottom:0;transform:none;z-index:100;width:300px;height:100vh;padding:40px 30px 30px;transition:right 0.5s cubic-bezier(0.7, 0.4, 0, 1);background:#fff}.main-nav.is-open{right:0}.main-nav .nav__list{width:100%}.main-nav .nav__list .nav__item{display:block;margin:0 10px}.main-nav .nav__list .nav__item:last-child{margin-right:10px}.main-nav .nav__list .nav__item .nav__link{display:block;padding:10px 0}}@media only screen and (max-width: 576px){.main-nav{padding:20px 30px}}.main-nav__box{display:flex;align-items:center}.main-nav__box .nav__icon-close{display:none;font-size:24px;text-align:right}.main-nav__box .nav__icon-close .ion-md-close{cursor:pointer}.main-nav__box .nav__title{display:none}@media only screen and (max-width: 992px){.main-nav__box{display:block}.main-nav__box .nav__icon-close{display:block}.main-nav__box .nav__title{display:block;margin:0 10px 10px;padding-bottom:10px;color:#bbb;border-bottom:1px solid #eee}}.nav__list .nav__item{display:inline-block;margin:0 20px}.nav__list .nav__item:last-child{margin-right:40px}.nav__list .nav__item .nav__link{font-family:'Josefin Sans', sans-serif;font-size:17px;line-height:26px}.nav__list .nav__item .nav__link:hover{color:#17181E}.nav-buttons{display:flex;align-items:center;font-size:21px}.nav-buttons .nav__icon{cursor:pointer}.nav-buttons .nav__icon:first-child{margin-right:15px}.nav-buttons .nav__icon-menu{display:none}@media only screen and (max-width: 992px){.nav-buttons{margin-left:auto}.nav-buttons .nav__icon-menu{display:block}}.search{position:fixed;top:0;left:0;right:0;bottom:0;z-index:-1;transform:scale(0.95);opacity:0;background:#fff;transition:all .25s ease}.search.is-visible{transform:scale(1);z-index:100;opacity:1;transition:all .25s ease}.search__box{width:60%;margin:0 auto;padding-top:250px}@media only screen and (max-width: 768px){.search__box{width:80%;padding-top:100px}}.search__group{position:relative;margin-bottom:30px}.search__group .search__close{position:absolute;right:0;top:17px;font-size:25px;cursor:pointer}.search__group .search__text{width:100%;padding:20px 20px 20px 0;font-family:'Josefin Sans', Helvetica, Arial, sans-serif;font-size:37px;line-height:40px;border:none;border-bottom:3px solid #17181E;color:#17181E}.search__group .search__text::placeholder{font-weight:700;color:#bbb}.search__group .search__text::-ms-clear{display:none}.search-results-list{height:55vh;margin:0 0 0 -5px;padding:0 0 25px 25px;list-style:decimal;font-weight:700;color:#17181E;overflow:auto;white-space:normal}.search-results-list .search-results__item{padding:0 0 0 5px;margin-bottom:10px}.search-results-list .search-results__link{display:block;padding:20px 15px;font-size:16px;font-weight:400;line-height:24px;border-radius:3px;color:#17181E;background:#F6F7F9}.search-results-list .search-results__link:hover{color:#000}.search-results-list .no-results{list-style:none;margin-left:-20px;font-size:16px;font-weight:400;color:#17181E}.slider{padding:40px 0;margin:0 40px 60px;background:#F6F7F9}.slider.is-disabled{pointer-events:none}@media only screen and (max-width: 992px){.slider{padding:0;margin:0 0 60px}}.slider__box{height:571px;overflow-y:hidden;box-shadow:0 30px 40px rgba(0,0,0,0.07)}@media only screen and (max-width: 992px){.slider__box{height:auto}}.slider__inner{margin:0 -40px}@media only screen and (max-width: 992px){.slider__inner{margin:0}}.slider__main{display:flex;align-items:center;background:#fff}@media only screen and (max-width: 992px){.slider__main{flex-direction:column;justify-content:center}}.slider__content{order:-1;width:40%;padding:60px 60px 30px}.slider__content .slider__title{max-width:350px;margin-bottom:20px;font-size:36px;line-height:46px}.slider__content .slider__title a{outline:none}.slider__content .slider__title a:hover{color:#17181E;text-shadow:0px 7px 10px rgba(255,193,117,0.8)}.slider__content .slider__excerpt{margin-bottom:20px;font-size:16px;line-height:36px;color:#4A4B51}.slider__content .slider__meta{display:flex;align-items:center;margin-bottom:20px;line-height:initial;color:#4A4B51}.slider__content .slider__meta .slider__tags{display:flex}.slider__content .slider__meta .slider__tag,.slider__content .slider__meta .article__date{flex-grow:1;font-size:13px;line-height:20px;color:#4A4B51}.slider__content .slider__meta .slider__tag{margin-right:3px;outline:none}.slider__content .slider__meta .slider__tag:after{content:",";display:inline-block}.slider__content .slider__meta .slider__tag:last-child{margin-right:0}.slider__content .slider__meta .slider__tag:last-child:after{content:"";position:relative;bottom:0.3rem;display:inline-block;height:1px;width:12px;margin:0 .6rem 0 .6rem;background:#4A4B51}@media only screen and (max-width: 992px){.slider__content{order:1;width:100%;padding:30px}.slider__content .slider__title{max-width:100%}}@media only screen and (max-width: 576px){.slider__content{padding:30px}.slider__content .slider__title{margin-bottom:10px;font-size:26px;line-height:36px}.slider__content .slider__meta{margin-bottom:10px}.slider__content .slider__excerpt{line-height:26px}}.slider__image{display:block;width:60%;min-height:571px;outline:none;background-color:#F6F7F9;background-size:cover;background-position:center;background-repeat:no-repeat}.slider__image:after{content:"";display:table;padding-top:75%}@media only screen and (max-width: 992px){.slider__image{width:100%;min-height:430px}.slider__image:after{padding-top:60%}}@media only screen and (max-width: 576px){.slider__image{min-height:200px}}.slider__list{display:flex;justify-content:flex-start;align-items:center}.slider__list .slider__item-prev,.slider__list .slider__item-next{display:inline-block}.slider__list .next,.slider__list .prev{display:block;padding:10px 20px;font-size:21px;cursor:pointer;border:1px solid rgba(0,0,0,0.07);transition:all .1s linear}.pagination{margin:20px 0 0}.pagination__list{display:flex;justify-content:center;align-items:center}.pagination__list .disabled,.pagination__list .previous-link,.pagination__list .next-link,.pagination__list .back-link,.pagination__list .active-link,.pagination__list .count-number{display:inline-block;width:40px;height:40px;margin:0 5px;font-size:16px;text-align:center;line-height:40px;border-radius:50px;box-shadow:0 1px 5px rgba(0,0,0,0.15);background:#fff}.pagination__list .disabled{display:none}.pagination__list .next-link:hover,.pagination__list .previous-link:hover,.pagination__list .back-link:hover,.pagination__list .count-number:hover{color:#17181E}.pagination__list .active-link{color:#17181E;background:#F6F7F9}@media only screen and (max-width: 360px){.pagination__list{flex-wrap:wrap}}.counter-box{display:flex}.footer .footer__inner{padding:40px 0;margin:0 40px 0;background:#F6F7F9}.footer .footer__head{margin:0 -40px}.footer .footer__content{padding:60px 0}@media only screen and (max-width: 992px){.footer .footer__inner{padding:0;margin:0}.footer .footer__head{margin:0}}.copyright{padding:0 0 30px;margin-top:20px;font-family:'Josefin Sans', sans-serif;font-size:13px;text-align:center;color:#4A4B51}.copyright a:hover{color:#17181E}.instagram-box{position:relative}.instagram-box .instagram-title{position:absolute;display:inline-block;top:50%;left:50%;transform:translate(-50%, -50%);padding:10px 25px;font-family:'Josefin Sans', sans-serif;font-size:15px;line-height:22px;border-radius:3px;box-shadow:0 2px 4px 0 rgba(0,0,0,0.1);background:#fff}.instagram-box .instagram-title:hover{color:#17181E}.instagram-box .instagram-title i{margin-right:5px;font-size:15px;line-height:22px}.instagram-box .instagram .instagram-item{display:inline-block;width:25%}@media only screen and (max-width: 992px){.instagram-box .instagram .instagram-item{width:50%}}.contact{margin:50px 0 0;text-align:center}.contact .contact__item{display:inline-block;margin:0 20px}@media only screen and (max-width: 768px){.contact .contact__item{margin:0 10px}}.contact .contact__link{font-size:12px;line-height:24px;letter-spacing:2px;text-transform:uppercase}.contact .contact__link:hover{color:#17181E}.contact .contact__link i{margin-right:5px}@media only screen and (max-width: 768px){.contact .contact__link{letter-spacing:1px}}.article{margin-bottom:10px}.article__image{position:relative;display:inline-block;overflow:hidden}.article__image:hover:after{transition:.4s ease-in-out;opacity:1;visibility:visible}.article__image:after{content:"";display:block;position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.15);transition:.4s ease-in-out;opacity:0;visibility:hidden}.article__content{padding:20px 0;background:white}.article__meta{display:flex;align-items:center;margin-bottom:10px;line-height:initial;color:#4A4B51}.article__meta .article-tags__box{display:flex}.article__meta .article__tag,.article__meta .article__date{flex-grow:1;font-size:13px;line-height:20px;color:#4A4B51}.article__meta .article__tag{margin-right:3px}.article__meta .article__tag:after{content:",";display:inline-block}.article__meta .article__tag:last-child:after{content:"";position:relative;bottom:0.3rem;display:inline-block;height:1px;width:12px;margin:0 .6rem 0 .6rem;background:#4A4B51}.article__title{margin-bottom:10px;font-size:28px;line-height:38px}.article__title a:hover{color:#17181E;text-shadow:0px 7px 10px rgba(255,193,117,0.8)}@media only screen and (max-width: 576px){.article__title{font-size:26px;line-height:26px}}.post-head{margin-top:100px;padding:0 40px}@media only screen and (max-width: 576px){.post-head{margin-top:50px;padding:0}}.post-info{display:flex;align-items:center;margin-bottom:20px}@media only screen and (max-width: 576px){.post-info{margin-bottom:10px}}.post-tags .post-tags__tag,.post-date{font-size:15px;line-height:25px;color:#4A4B51}.post-tags .post-tags__tag:after{content:",";display:inline-block}.post-tags .post-tags__tag:last-child:after{content:"";position:relative;bottom:0.3rem;display:inline-block;height:1px;width:12px;margin:0 .6rem 0 .6rem;background:#4A4B51}.post-title{font-size:48px;line-height:60px;margin-bottom:40px}@media only screen and (max-width: 768px){.post-title{font-size:38px;line-height:48px}}@media only screen and (max-width: 576px){.post-title{font-size:30px;line-height:40px;margin-bottom:20px}}.image-box{padding:40px 0;margin:0 40px 40px;background:#F6F7F9}@media only screen and (max-width: 768px){.image-box{padding:0}}@media only screen and (max-width: 576px){.image-box{margin:0 40px 20px}}.post-image{display:block;margin:0 -40px;background-size:cover;background-position:center;background-repeat:no-repeat;background-color:#F6F7F9}.post-image:after{content:"";display:table;padding-top:85%}.post{padding:0 40px}@media only screen and (max-width: 576px){.post{padding:0}}.post__share{margin-bottom:20px}.post__share .share__title{margin:50px 0 20px;font-family:'Josefin Sans', sans-serif;font-size:16px;line-height:16px}.post__share .share__list{display:flex;align-items:center;width:100%}.post__share .share__item{width:25%;text-align:center;border:1px solid #dfdfdf;border-left:none}.post__share .share__item:first-child{border-left:1px solid #dfdfdf}.post__share .share__link{display:block;padding:15px 0;font-size:20px;color:#17181E}.author-image-box{display:flex;align-items:center;margin-bottom:50px}.author-image-box .author__image{display:block;width:30px;height:30px;margin-right:15px;border-radius:50%;text-decoration:none;background-size:cover;background-position:center;background-repeat:no-repeat;background-color:#F6F7F9}.author-image-box .author__name{font-family:'Josefin Sans', sans-serif;font-size:16px;line-height:16px;text-decoration:underline}.author-image-box .author__name:hover{color:#4A4B51}.post__navigation{display:flex;align-items:center;justify-content:space-between;margin-bottom:100px}.post__navigation .prev,.post__navigation .next{width:45%}.post__navigation .prev .post__nav,.post__navigation .next .post__nav{display:inline-block;margin-bottom:5px;font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#4A4B51}.post__navigation .prev .post__nav__prev:hover i,.post__navigation .next .post__nav__prev:hover i{margin-right:0px}.post__navigation .prev .post__nav__prev i,.post__navigation .next .post__nav__prev i{margin-right:5px;transition:all .25s ease}.post__navigation .prev .post__nav__next:hover i,.post__navigation .next .post__nav__next:hover i{margin-left:0px}.post__navigation .prev .post__nav__next i,.post__navigation .next .post__nav__next i{margin-left:5px;transition:all .25s ease}.post__navigation .prev .post__nav__title,.post__navigation .next .post__nav__title{margin-bottom:20px;line-height:25px}.post__navigation .prev .post__nav__title a,.post__navigation .next .post__nav__title a{color:#17181E}.post__navigation .prev .post__nav__title a:hover,.post__navigation .next .post__nav__title a:hover{color:#4A4B51}.post__navigation .next{text-align:right;margin-left:auto}@media only screen and (max-width: 576px){.post__navigation{flex-wrap:wrap;margin-bottom:50px}.post__navigation .prev,.post__navigation .next{width:100%}.post__navigation .next{text-align:left}}.page-head{margin-top:100px;padding:0 40px}@media only screen and (max-width: 576px){.page-head{margin-top:50px;padding:0}}.page-head__title{font-size:48px;line-height:60px;margin-bottom:40px}@media only screen and (max-width: 768px){.page-head__title{font-size:38px;line-height:48px}}@media only screen and (max-width: 576px){.page-head__title{font-size:30px;line-height:40px;margin-bottom:20px}}.image-box{padding:40px 0;margin:0 40px 40px;background:#F6F7F9}@media only screen and (max-width: 768px){.image-box{padding:0}}@media only screen and (max-width: 576px){.image-box{margin:0 40px 20px}}.page-image{display:block;margin:0 -40px;background-size:cover;background-position:center;background-repeat:no-repeat;background-color:#F6F7F9}.page-image:after{content:"";display:table;padding-top:85%}.archive-box{margin:80px 0;text-align:center}@media only screen and (max-width: 576px){.archive-box{margin:50px 0}}
+
+  </style>
+</head>
+
+<body>
+
+  
+
+    <!-- begin header -->
+<header class="header">
+    <div class="container">
+      <div class="row">
+        
+          <div class="header__inner col col-12 col-d-10 col-m-12 push-m-0 push-d-1">
+        
+
+          <div class="logo">
+            <a class="logo__link" href="/">
+            
+              Melotta
+            
+            </a>
+          </div>
+
+          <nav class="main-nav">
+            <div class="main-nav__box">
+              <div class="nav__icon-close">
+                <i class="ion ion-md-close"></i>
+              </div>
+              <div class="nav__title">Menu</div>
+              <ul class="nav__list list-reset">
+                <li class="nav__item">
+                  <a href="/" class="nav__link">Home</a>
+                </li>
+                
+                  
+                
+                  
+                    
+                    <li class="nav__item">
+                      <a href="/about/" class="nav__link">About</a>
+                    </li>
+                    
+                  
+                
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                
+                  
+                    
+                    <li class="nav__item">
+                      <a href="/styleguide/" class="nav__link">Style Guide</a>
+                    </li>
+                    
+                  
+                
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                
+              </ul>
+            </div>
+          </nav>
+
+          <div class="nav-buttons">
+            <i class="nav__icon nav__icon-menu ion ion-md-menu"></i>
+            <i class="nav__icon nav__icon-search ion ion-md-search"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__overlay"></div>
+  </header>
+  <!-- end header -->
+
+  <!-- begin search -->
+<div class="search">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="search__box">
+          <div class="search__group">
+            <div class="search__close">
+              <i class="ion ion-md-close"></i>
+            </div>
+            <label for="js-search-input" class="screen-reader-text">Search for Blog</label>
+            <input type="text" id="js-search-input" class="search__text" autocomplete="off" placeholder="Type to search...">
+          </div>
+          <ul id="js-results-container" class="search-results-list"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end search -->
+    <!-- begin content -->
+    <main class="content" aria-label="Content">
+      <!-- begin wrapper-page -->
+      <div class="wrapper-page">
+        <div class="container">
+  <div class="row">
+    <div class="col col-8 col-d-10 col-m-12 push-m-0 push-d-1 push-2">
+      <div class="archive-box">
+        <h1 class="archive-title">Life</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col col-12 col-d-10 col-m-12 push-m-0 push-d-1">
+			<div class="container__inner">
+				<div class="contaniner__inner-box">
+					<div class="row grid">
+            
+              <div class="article col col-4 col-d-6 col-m-12 grid__post">
+  
+    <a class="article__image" href="/2018/11/11/the-last-time-i-felt-it-was-in-the-presence-of-my-old-master/">
+      <img src="/images/04.jpg" alt="The last time I felt it was in the presence of my old master">
+    </a>
+  
+  <div class="article__content">
+    <div class="article__meta">
+      <div class="article-tags">
+        
+          <div class="article-tags__box">
+            
+              <a href="/tag/Life" class="article__tag">Life</a>
+            
+          </div>
+          
+      </div>
+      <span class="article__date"><time datetime="2018-11-11T13:01:35+01:00">November 11, 2018</time></span>
+    </div>
+    <h2 class="article__title">
+      <a href="/2018/11/11/the-last-time-i-felt-it-was-in-the-presence-of-my-old-master/">The last time I felt it was in the presence of my old master</a>
+    </h2>
+  </div>
+</div>
+            
+              <div class="article col col-4 col-d-6 col-m-12 grid__post">
+  
+    <a class="article__image" href="/2018/11/09/the-force-is-strong-with-this-one.i-have-you-now/">
+      <img src="/images/06.jpg" alt="The Force is strong with this one. I have you now">
+    </a>
+  
+  <div class="article__content">
+    <div class="article__meta">
+      <div class="article-tags">
+        
+          <div class="article-tags__box">
+            
+              <a href="/tag/Life" class="article__tag">Life</a>
+            
+          </div>
+          
+      </div>
+      <span class="article__date"><time datetime="2018-11-09T13:01:35+01:00">November 9, 2018</time></span>
+    </div>
+    <h2 class="article__title">
+      <a href="/2018/11/09/the-force-is-strong-with-this-one.i-have-you-now/">The Force is strong with this one. I have you now</a>
+    </h2>
+  </div>
+</div>
+            
+              <div class="article col col-4 col-d-6 col-m-12 grid__post">
+  
+    <a class="article__image" href="/2018/10/31/the-way-i-see-it-every-life-is-a-pile-of-good-things/">
+      <img src="/images/01.jpg" alt="The way I see it, every life is a pile of good things">
+    </a>
+  
+  <div class="article__content">
+    <div class="article__meta">
+      <div class="article-tags">
+        
+          <div class="article-tags__box">
+            
+              <a href="/tag/Life" class="article__tag">Life</a>
+            
+          </div>
+          
+      </div>
+      <span class="article__date"><time datetime="2018-10-31T13:01:35+01:00">October 31, 2018</time></span>
+    </div>
+    <h2 class="article__title">
+      <a href="/2018/10/31/the-way-i-see-it-every-life-is-a-pile-of-good-things/">The way I see it, every life is a pile of good things</a>
+    </h2>
+  </div>
+</div>
+            
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+      </div>
+      <!-- end wrapper-page -->
+    </main> 
+    <!-- end content -->
+    <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i></div>
+    <!-- begin footer -->
+<div class="container">
+  <div class="row">
+    <div class="col col-12 col-d-10 col-m-12 push-m-0 push-d-1">
+      <footer class="footer">
+        <div class="footer__inner">
+          <div class="footer__head">
+            
+  <div class="instagram-box">
+    <a href="https://www.instagram.com" class="instagram-title" target="_blank"><i class="ion ion-logo-instagram"></i> Follow Me!</a>
+    <ul id="instafeed" class="instagram list-reset" data-userId="6716400487"
+    data-accessToken="6716400487.1677ed0.4fae51c47bc544a895b81756a7d0c477"></ul>
+  </div>
+
+          </div>
+        </div>
+        
+  <div class="contact">
+    <ul class="contact__list list-reset">
+      
+      <li class="contact__item">
+        <a class="contact__link" href="https://twitter.com"><i class="ion ion-logo-twitter"></i> Twitter</a>
+      </li>
+      
+      <li class="contact__item">
+        <a class="contact__link" href="https://facebook.com"><i class="ion ion-logo-facebook"></i> Facebook</a>
+      </li>
+      
+      <li class="contact__item">
+        <a class="contact__link" href="https://dribbble.com"><i class="ion ion-logo-dribbble"></i> Dribbble</a>
+      </li>
+      
+      <li class="contact__item">
+        <a class="contact__link" href="https://instagram.com"><i class="ion ion-logo-instagram"></i> Instagram</a>
+      </li>
+      
+      <li class="contact__item">
+        <a class="contact__link" href="https://pinterest.com"><i class="ion ion-logo-pinterest"></i> Pinterest</a>
+      </li>
+      
+      <li class="contact__item">
+        <a class="contact__link" href="mailto:forexample@website.com"><i class="ion ion-ios-mail"></i> Email</a>
+      </li>
+      
+    </ul>
+  </div>
+
+        <div class="copyright">2019 &copy; <a href="/">Melotta</a>. Crafted & Designed by <a
+            href="https://artemsheludko.github.io">Artem Sheludko</a>.</div>
+      </footer>
+    </div>
+  </div>
+</div>
+<!-- end footer -->
+
+  <script src="/js/vendors/jquery-3.3.1.min.js"></script>
+<script src="/js/vendors/simple-jekyll-search.min.js"></script>
+<script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById("js-search-input"),
+    resultsContainer: document.getElementById("js-results-container"),
+    json: "/search.json",
+    searchResultTemplate: '<li class="search-results__item"><a class="search-results__link" href="{url}">{title}</a></li>',
+    noResultsText: '<li class="no-results">No results found</li>'
+  });
+</script>
+<script src="/js/vendors/instafeed.min.js"></script>
+<script src="/js/vendors/jquery.fitvids.js"></script>
+<script src="/js/vendors/slick.min.js"></script>
+<script src="/js/vendors/masonry.pkgd.min.js"></script>
+<script src="/js/vendors/imagesloaded.pkgd.min.js"></script>
+<script src="/js/vendors/transition.js"></script>
+<script src="/js/vendors/zoom.min.js"></script>
+<script src="/js/common.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+// *****************
+// Global Variables
+// *****************
+
+// Spaces
+$base-spacing-unit: 20px;
+
+// Border radius
+$global-radius: 3px;
+
+// Transition
+$global-transition: all .35s;
+
+
+// *****************
+// Color Variables
+// *****************
+$brand-color: #FFCFB2;
+$dark: #17181E;
+$gray: #BBB;
+$gray-blue: #4A4B51;
+$light-gray: #F6F7F9;
+$white:#FFF;
+
+// Background Colors
+$background-color: $white;
+
+// Body Color
+$text-color: $dark;
+
+// Headings
+$heading-font-color: $dark;
+
+// Links
+$link-color: $dark;
+$link-color-hover: darken($brand-color, 15%);
+$link-text-shadow: rgba(255, 193, 117, 0.8);
+
+// Button
+$button-color: $white;
+$button-background-color: $brand-color;
+
+// Border
+$border-color: $light-gray;
+
+
+// *****************
+// Typography
+// *****************
+$base-font-size: 18px;
+$base-font-style: normal;
+$base-font-variant: normal;
+$base-font-weight: normal;
+$base-font-family: 'Lora', Georgia, "Times New Roman", serif;
+$base-line-height: 36px;
+
+// Headings
+$heading-font-weight: 400;
+$heading-font-family: 'Josefin Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+
+$font-size-h1:  36px;
+$font-size-h2:  28px;
+$font-size-h3:  24px;
+$font-size-h4:  20px;
+$font-size-h5:  18px;
+$font-size-h6:  16px;
+
+$heading-line-height: 1.3;

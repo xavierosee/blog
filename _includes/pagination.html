@@ -1,0 +1,40 @@
+<!-- begin pagination -->
+<nav class="pagination">
+  <div class="container">
+    <div class="pagination__list">
+      {% if paginator.previous_page %}
+        {% if paginator.previous_page == 1 %}
+          <a class="previous-link" href="/"><i class="ion ion-ios-arrow-back"></i></a>
+        {% else %}
+          <a class="previous-link" href="/page/{{ paginator.previous_page }}/"><i class="ion ion-ios-arrow-back"></i></a>
+        {% endif %}
+
+      {% else %}
+        <span class="disabled"><i class="ion ion-ios-arrow-back"></i></span>
+      {% endif %}
+
+      <div class="counter-box">
+        {% if paginator.page == 1 %}
+          <span class="active-link">1</span>
+        {% else %}
+          <a class="back-link" href="/">1</a>
+        {% endif %}
+        {% for count in (2..paginator.total_pages) %}
+
+        {% if count == paginator.page %}
+          <span class="active-link">{{ count }}</span>
+          {% else %}
+            <a class="count-number" href="/page/{{ count }}/">{{ count }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      {% if paginator.next_page %}
+        <a class="next-link" href="{{ site.baseurl }}/page/{{ paginator.next_page }}/"><i class="ion ion-ios-arrow-forward"></i></a>
+      {% else %}
+        <span class="disabled"><i class="ion ion-ios-arrow-forward"></i></span>
+      {% endif %}
+    </div>
+  </div>
+</nav>
+<!-- end pagination -->

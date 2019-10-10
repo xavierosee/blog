@@ -1,0 +1,51 @@
+{% if site.slider != null %}
+{% assign slider_tags = site.slider %}
+<div class="container">
+  <div class="row">
+    <div class="col col-12 col-d-10 col-m-12 push-m-0 push-d-1">
+      <!-- begin slider -->
+      <div class="slider">
+        <div class="slider__inner">
+          <div class="slider__box">
+            {% for post in site.tags.[slider_tags] %}
+              {% if post.title != null %}
+                <div class="slider__item">
+                  <div class="slider__main">
+                  <a href="{{ post.url | prepend: site.baseurl }}" style="background-image: url({{site.baseurl}}{{post.image}})"
+                    class="slider__image" aria-label="{{ post.title }}"></a>
+
+                    <div class="slider__content">
+                      
+                      <div class="slider__meta">
+                        <div class="slider__tags">
+                          {% for tag in post.tags %}
+                            <a class="slider__tag" href="{{ site.baseurl }}/tag/{{tag}}">{{tag}}</a>
+                          {% endfor %}
+                        </div>
+                        <span class="article__date"><time
+                          datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format }}</time></span>
+                      </div>
+
+                      <h1 class="slider__title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+                      <p class="slider__excerpt">
+                          {% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}
+                      </p>
+
+                      <ul class="slider__list list-reset">
+                        <li class="slider__item-prev"><i class="prev ion ion-ios-arrow-back"></i></li>
+                        <li class="slider__item-next"><i class="next ion ion-ios-arrow-forward"></i></li>
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <!-- end slider -->
+    </div>
+  </div>
+</div>
+{% endif %}

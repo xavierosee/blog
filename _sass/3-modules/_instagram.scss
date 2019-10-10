@@ -1,0 +1,37 @@
+/* Instagram */
+.instagram-box {
+  position: relative;
+
+  .instagram-title {
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+    background: $white;
+    &:hover {
+      color: $dark;
+    }
+    i {
+      margin-right: 5px;
+      font-size: 15px;
+      line-height: 22px;
+    }
+  }
+
+  .instagram {
+    .instagram-item {
+      display: inline-block;
+      width: 25%;
+      @media only screen and (max-width: $desktop) {
+        width: 50%;
+      }
+    }
+  }
+}

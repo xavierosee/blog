@@ -1,0 +1,42 @@
+/* Footer */
+.footer {
+  .footer__inner {
+    padding: 40px 0;
+    margin: 0 40px 0;
+    background: $light-gray;
+  }
+
+  .footer__head {
+    margin: 0 -40px;
+  }
+  
+  .footer__content {
+    padding: 60px 0;
+  }
+
+  @media only screen and (max-width: $desktop) {
+    .footer__inner {
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer__head {
+      margin: 0;
+    }
+  }
+}
+
+/* Copyright */
+.copyright {
+  padding: 0 0 30px;
+  margin-top: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 13px;
+  text-align: center;
+  color: $gray-blue;
+  a {
+    &:hover {
+      color: $dark;
+    }
+  }
+}

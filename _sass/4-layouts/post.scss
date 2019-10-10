@@ -1,0 +1,231 @@
+/* Post */
+.post-head {
+  margin-top: 100px;
+  padding: 0 40px;
+  @media only screen and (max-width: $mobile) {
+    margin-top: 50px;
+    padding: 0;
+  }
+}
+
+.post-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  @media only screen and (max-width: $mobile) {
+    margin-bottom: 10px;
+  }
+}
+
+.post-tags .post-tags__tag,
+.post-date {
+  font-size: 15px;
+  line-height: 25px;
+  color: $gray-blue;
+}
+
+.post-tags .post-tags__tag {
+  &:after {
+    content: ",";
+    display: inline-block;
+  }
+  &:last-child {
+    &:after {
+      content: "";
+      position: relative;
+      bottom: 0.3rem;
+      display: inline-block;
+      height: 1px;
+      width: 12px;
+      margin: 0 .6rem 0 .6rem;
+      background: $gray-blue;
+    }
+  }
+}
+
+.post-title {
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 40px;
+  @media only screen and (max-width: $tablet) {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  @media only screen and (max-width: $mobile) {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+.image-box {
+  padding: 40px 0;
+  margin: 0 40px 40px;
+  background: $light-gray;
+  @media only screen and (max-width: $tablet) {
+    padding: 0;
+  }
+  @media only screen and (max-width: $mobile) {
+    margin: 0 40px 20px;
+  }
+}
+
+.post-image {
+  display: block;
+  margin: 0 -40px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: $light-gray;
+  &:after {
+    content: "";
+    display: table;
+    padding-top: 85%;
+  }
+}
+
+.post {
+  padding: 0 40px;
+  @media only screen and (max-width: $mobile) {
+    padding: 0;
+  }
+}
+
+/* Share */
+.post__share {
+  margin-bottom: 20px;
+
+  .share__title {
+    margin: 50px 0 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .share__list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .share__item {
+    width: 25%;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    border-left: none;
+    &:first-child {
+      border-left: 1px solid #dfdfdf;
+    }
+  }
+
+  .share__link {
+    display: block;
+    padding: 15px 0;
+    font-size: 20px;
+    color: $dark;
+  }
+}
+
+/* Author */
+.author-image-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+
+  .author__image {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: $light-gray;
+  }
+
+  .author__name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: underline;
+    &:hover {
+      color: $gray-blue;
+    }
+  }
+}
+
+/* Navigation */
+.post__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+
+  .prev, .next {
+    width: 45%;
+
+    .post__nav {
+      display: inline-block;
+      margin-bottom: 5px;
+      font-size: 13px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: $gray-blue;
+    }
+
+     .post__nav__prev {
+       &:hover {
+         i {
+           margin-right: 0px;
+         }
+       }
+       i {
+        margin-right: 5px;
+        transition: all .25s ease;
+       }
+     }
+
+     .post__nav__next {
+       &:hover {
+         i {
+           margin-left: 0px;
+         }
+       }
+       i {
+         margin-left: 5px;
+         transition: all .25s ease;
+       }
+     }
+
+    .post__nav__title {
+      margin-bottom: 20px;
+      line-height: 25px;
+      a {
+        color: $dark;
+        &:hover {
+          color: $gray-blue;
+        }
+      }
+    }
+  }
+
+  .next {
+    text-align: right;
+    margin-left: auto;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+
+    .prev, .next {
+      width: 100%;
+    }
+
+    .next {
+      text-align: left;
+    }
+  }
+}
