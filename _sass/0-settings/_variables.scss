@@ -15,18 +15,18 @@ $global-transition: all .35s;
 // *****************
 // Color Variables
 // *****************
-$brand-color: #FFCFB2;
-$dark: #17181E;
-$gray: #BBB;
-$gray-blue: #4A4B51;
-$light-gray: #F6F7F9;
+$brand-color: #E887B2;
+$dark: #D36798;
+$gray: #2A324B;
+$gray-blue: #4F7CAC;
+$light-gray: #F8DBE8;
 $white:#FFF;
 
 // Background Colors
 $background-color: $white;
 
 // Body Color
-$text-color: $dark;
+$text-color: $gray;
 
 // Headings
 $heading-font-color: $dark;
@@ -34,7 +34,7 @@ $heading-font-color: $dark;
 // Links
 $link-color: $dark;
 $link-color-hover: darken($brand-color, 15%);
-$link-text-shadow: rgba(255, 193, 117, 0.8);
+$link-text-shadow: rgba(248, 219, 232, 0.8);
 
 // Button
 $button-color: $white;
@@ -50,13 +50,13 @@ $border-color: $light-gray;
 $base-font-size: 18px;
 $base-font-style: normal;
 $base-font-variant: normal;
-$base-font-weight: normal;
-$base-font-family: 'Lora', Georgia, "Times New Roman", serif;
+$base-font-weight: 200;
+$base-font-family: 'Poppins', sans-serif;
 $base-line-height: 36px;
 
 // Headings
 $heading-font-weight: 400;
-$heading-font-family: 'Josefin Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+$heading-font-family: 'Poppins', sans-serif;
 
 $font-size-h1:  36px;
 $font-size-h2:  28px;
