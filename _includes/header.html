@@ -31,8 +31,12 @@
               <div class="nav__title">Menu</div>
               <ul class="nav__list list-reset">
                 <li class="nav__item">
-                  <a href="{{ site.baseurl }}/" class="nav__link">Home</a>
+                  <a href="https://offtheground.io/" class="nav__link">Home</a>
                 </li>
+                <li class="nav__item">
+                  <a href="{{ site.baseurl }}/" class="nav__link">Blog</a>
+                </li>
+                <!-- List all pages in Menu
                 {% for page in site.pages %}
                   {% unless page.name == 'tags.html' or page.name == '404.html' %}
                     {% if page.title %}
@@ -42,6 +46,7 @@
                     {% endif %}
                   {% endunless %}
                 {% endfor %}
+                -->
               </ul>
             </div>
           </nav>
