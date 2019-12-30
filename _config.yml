@@ -1,7 +1,7 @@
 title: Mobile Growth News for Apps & Games | Off The Ground
 logo: /images/otg-logo.png
 description: Off The Ground is a mobile growth consultancy that helps developers of all sizes define and execute their growth strategy. We specialise in running UA campaigns at scale and improving your apps via data-informed optimisations to maximise profitability.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://offtheground.io" # the base hostname & protocol for your site, e.g. http://example.com
 brand: Off The Ground
 
