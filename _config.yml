@@ -3,6 +3,7 @@ logo: /images/otg-logo.png
 description: Off The Ground is a mobile growth consultancy that helps developers of all sizes define and execute their growth strategy. We specialise in running UA campaigns at scale and improving your apps via data-informed optimisations to maximise profitability.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://offtheground.io" # the base hostname & protocol for your site, e.g. http://example.com
+brand: Off The Ground
 
 # Author Settings
 author:
@@ -16,7 +17,7 @@ contact:
 - {name: "Email", icon: "ion-ios-mail", link: "mailto:contac@offtheground.io"}
 
 # Slider Section
-slider: Life # NOTE - By default, the slider is set to display tags. Now the slider shows the tag with the text "Life". If you do not want to use the slider, leave the slider field empty.
+slider: Featured # NOTE - By default, the slider is set to display tags. Now the slider shows the tag with the text "Featured". If you do not want to use the slider, leave the slider field empty.
 
 # Comment Section (Disqus)
 disqus-identifier: # add your shortname for Disqus Comment. For example mr-brown
