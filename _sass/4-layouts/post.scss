@@ -37,7 +37,7 @@
       display: inline-block;
       height: 1px;
       width: 12px;
-      margin: 0 .6rem 0 .6rem;
+      margin: 0 0.6rem 0 0.6rem;
       background: $gray-blue;
     }
   }
@@ -97,7 +97,7 @@
 
   .share__title {
     margin: 50px 0 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     line-height: 16px;
   }
@@ -109,7 +109,7 @@
   }
 
   .share__item {
-    width: 25%;
+    width: 33%;
     text-align: center;
     border: 1px solid #dfdfdf;
     border-left: none;
@@ -146,7 +146,7 @@
   }
 
   .author__name {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     line-height: 16px;
     text-decoration: underline;
@@ -163,7 +163,8 @@
   justify-content: space-between;
   margin-bottom: 100px;
 
-  .prev, .next {
+  .prev,
+  .next {
     width: 45%;
 
     .post__nav {
@@ -175,29 +176,29 @@
       color: $gray-blue;
     }
 
-     .post__nav__prev {
-       &:hover {
-         i {
-           margin-right: 0px;
-         }
-       }
-       i {
+    .post__nav__prev {
+      &:hover {
+        i {
+          margin-right: 0px;
+        }
+      }
+      i {
         margin-right: 5px;
-        transition: all .25s ease;
-       }
-     }
+        transition: all 0.25s ease;
+      }
+    }
 
-     .post__nav__next {
-       &:hover {
-         i {
-           margin-left: 0px;
-         }
-       }
-       i {
-         margin-left: 5px;
-         transition: all .25s ease;
-       }
-     }
+    .post__nav__next {
+      &:hover {
+        i {
+          margin-left: 0px;
+        }
+      }
+      i {
+        margin-left: 5px;
+        transition: all 0.25s ease;
+      }
+    }
 
     .post__nav__title {
       margin-bottom: 20px;
@@ -220,7 +221,8 @@
     flex-wrap: wrap;
     margin-bottom: 50px;
 
-    .prev, .next {
+    .prev,
+    .next {
       width: 100%;
     }
 

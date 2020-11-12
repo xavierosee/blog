@@ -1,14 +1,14 @@
-title: Mobile Growth News for Apps & Games | Off The Ground
-logo: /images/otg-logo.png
-description: Off The Ground is a mobile growth consultancy that helps developers of all sizes define and execute their growth strategy. We specialise in running UA campaigns at scale and improving your apps via data-informed optimisations to maximise profitability.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+title: Xavier Rosée | Product and Data
+logo: /images/xr_logo.png
+description: Xavier Rosée is the founder of Off The Ground, a fully-remote Mobile Product Consultancy.
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://offtheground.io" # the base hostname & protocol for your site, e.g. http://example.com
-brand: Off The Ground
+brand: Xavier Rosée
 
 # Author Settings
 author:
   name: Xavier Rosée
-  image: '/images/01.jpg'
+  image: '/images/xavier.jpg'
 
 # Contact links
 # Example of adding a new link to the footer - {name: "Github", icon: "ion-logo-github", link: "https://github.com"}
