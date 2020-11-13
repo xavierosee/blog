@@ -2,7 +2,7 @@ title: Xavier Rosée | Product and Data
 logo: /images/xr_logo.png
 description: Xavier Rosée is the founder of Off The Ground, a fully-remote Mobile Product Consultancy.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://offtheground.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://offtheground.io" # the base hostname & protocol for your site, e.g. https://example.com
 brand: Xavier Rosée
 
 # Author Settings
