@@ -39,6 +39,7 @@ plugins:
   - jekyll-sitemap
   - jekyll/tagging
   - jekyll-archives
+  - jekyll-target-blank
 
 paginate: 9
 paginate_path: "/page/:num"

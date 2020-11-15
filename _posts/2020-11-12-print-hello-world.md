@@ -19,4 +19,7 @@ Sit qui ipsum sit ea mollit eiusmod Lorem tempor. Sint consectetur elit fugiat e
 
 ---
 
-Photo by [{{ page.photographer }}](https://unsplash.com/@{{ page.handleofthephotographer }}?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+Photo by [{{ page.photographer }}][photographer_link] on [Unsplash][unsplash]
+
+[photographer_link]: https://unsplash.com/@{{ page.handleofthephotographer }}?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+[unsplash]: https://unsplash.com?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
