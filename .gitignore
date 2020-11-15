@@ -49,6 +49,7 @@ package.json
 
 
 ### MacOS ###
+.DS_Store
 *.DS_Store
 .AppleDouble
 .LSOverride
@@ -79,3 +80,4 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 *.lnk
+.DS_Store
