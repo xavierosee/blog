@@ -1,8 +1,8 @@
-title: Xavier Rosée | Product and Data
+title: Xavier Rosée | Product Design and Data Analysis
 logo: /images/xr_logo.png
 description: Xavier Rosée is the founder of Off The Ground, a fully-remote Mobile Product Consultancy.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://offtheground.io" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://xavierrosee.com" # the base hostname & protocol for your site, e.g. https://example.com
 brand: Xavier Rosée
 
 # Author Settings
@@ -14,17 +14,17 @@ author:
 # Example of adding a new link to the footer - {name: "Github", icon: "ion-logo-github", link: "https://github.com"}
 # Other icons can be found at https://ionicons.com
 contact:
-- {name: "Email", icon: "ion-ios-mail", link: "mailto:contac@offtheground.io"}
+- {name: "Email", icon: "ion-ios-mail", link: "mailto:xavier@xavierrosee.com"}
 
 # Slider Section
-slider: Featured # NOTE - By default, the slider is set to display tags. Now the slider shows the tag with the text "Featured". If you do not want to use the slider, leave the slider field empty.
+slider: featured # NOTE - By default, the slider is set to display tags. Now the slider shows the tag with the text "Featured". If you do not want to use the slider, leave the slider field empty.
 
 # Comment Section (Disqus)
 disqus-identifier: # add your shortname for Disqus Comment. For example mr-brown
 
 # Instagram Feed
-instafeed: false # To enable the instafeed, use the value true. To turn off use the value false.
-instagram-profile: https://www.instagram.com
+instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+instagram-profile: https://www.instagram.com/xavierosee
 userID: 6716400487
 accessToken: 6716400487.1677ed0.4fae51c47bc544a895b81756a7d0c477
 
@@ -43,12 +43,19 @@ plugins:
 paginate: 9
 paginate_path: "/page/:num"
 
-# Pages Path
+# Page Paths and Post Defaults
 defaults:
   - scope:
       path: '_pages'
     values:
       permalink: /:basename:output_ext
+  - scope:
+      type: 'posts'
+    values:
+      permalink: /:year/:title:output_ext
+      layout: post
+      author: 'Xavier Rosée'
+      excerpt-separator: '<!--more-->'
 
 include:
   - _pages

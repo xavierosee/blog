@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "print('Hello World!')"
+title: print('Hello World!')
 date: 2020-11-12 23:05:55 +0200
-image: "/images/shahadat-rahman-gnyA8vd3Otc-unsplash.jpg"
-tags: Featured
+image: /images/shahadat-rahman-gnyA8vd3Otc-unsplash.jpg
+tags: featured meta
+photographer: Shahadat Rahman
+handleofthephotographer: hishahadat
 excerpt_separator: <!--more-->
 ---
 
@@ -17,4 +19,4 @@ Sit qui ipsum sit ea mollit eiusmod Lorem tempor. Sint consectetur elit fugiat e
 
 ---
 
-Photo by [Shahadat Rahman](https://unsplash.com/@hishahadat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/python?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+Photo by [{{ page.photographer }}](https://unsplash.com/@{{ page.handleofthephotographer }}?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
