@@ -10,7 +10,7 @@ Hi, I’m Xavier Rosée. Up to [2020][2020] I was a Mobile Marketing Professiona
 
 After a couple of years self-teaching Data Analysis and Python, my business and livelihood were hit by COVID-19. Taking this opportunity to reflect on the industry, the marketing role and my future, I’ve decided to pivot my career toward a Data and Product role.
 
-This space covers **Data Science** and **Data Analytics** along their use among the mobile and gaming spaces and the tech industry at large. I will share the things I find useful in my journey to Data Science, with the hope that it can help someone in their journey.
+This space covers **Data Science** and **Data Analytics** along with their use among the mobile and gaming spaces and the tech industry at large. I will share the things I find useful in my quest to Data Science, with the hope that it can help someone in their own journey.
 
 ---
 
