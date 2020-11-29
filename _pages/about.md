@@ -20,6 +20,5 @@ _Thanks for reading!_
 
 
 [rupaul]: https://media.giphy.com/media/3oEjI99ZdyZRE9Dw5O/giphy.gif
-[first_post]: {% post_url 2020-11-12-print-hello-world %}
+[first_post]: {% post_url 2020-11-28-print-hello-world %}
 [2020]: https://is2020over.com
-[antoine]: https://antoine-emond.com
