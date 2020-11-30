@@ -54,4 +54,4 @@ Photo by [{{ page.photographer }}][photographer_link] on [Unsplash][unsplash]
 [le wagon data science]: https://www.lewagon.com/data-science-course/full-time
 [le wagon web]: https://www.lewagon.com/web-development-course/full-time
 [dataquest]: https://dataquest.io
-[dataschool]: https://dataschool.io
+[dataschool]: https://www.dataschool.io
