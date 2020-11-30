@@ -9,7 +9,7 @@ handleofthephotographer: cdr6934
 excerpt_separator: <!--more-->
 ---
 
-As outlined in the [about page][about], I’ve decided to make the most of the COVID-19 pandemic by pivoting my career and starting a career in Data Science.
+As outlined in the [about page][about], I’ve decided to make the most of the COVID-19 pandemic by pivoting my lifework and starting a career in Data Science.
 
 While being on lockdown, I started diving into the rabbit hole that is Python, Statistics and general Data Science courses on services like Youtube, Coursera, Udemy and LinkedIn learning. If I’m being honest: learning by myself, facing the laptop and not interacting with anyone, that’s not for me at all… While it’s been great in rekindling my interest in maths and coding, I quickly fell into a slump, not making significant progress or figuring out how to apply what I learnt in my day-to-day business activities.
 
