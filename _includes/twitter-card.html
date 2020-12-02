@@ -1,6 +1,12 @@
+<!-- Twitter Card -->
 <meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@{{ author.username }}">
-<meta name="twitter:creator" content="@{{ author.username }}">
+{% if author.twitter %}
+  <meta name="twitter:site" content="@{{ author.twitter }}">
+  <meta name="twitter:creator" content="@{{ author.twitter }}">
+{% else %}
+  <meta name="twitter:site" content="@xavierosee">
+  <meta name="twitter:creator" content="@xavierosee">
+{% endif %}
 {% if page.seo_title %}
   <meta name="twitter:title" content="{{ page.seo_title }}">
 {% elsif page.title %}
@@ -21,3 +27,4 @@
 {% else %}
   <meta name="twitter:image:src" content="{{ site.url }}/images/01.jpeg">
 {% endif %}
+<!-- End Twitter Card -->
