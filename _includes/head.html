@@ -38,4 +38,11 @@
   {% include open-graph.html %}
   {% include twitter-card.html %}
 
+  <!-- Author stuff for Linkedin -->
+  {% if author.name %}
+    <meta name="author" content="{{ author.name }}">
+  {% else %}
+    <meta name="author" content="Xavier Rosée">
+  {% endif %}
+
 </head>
