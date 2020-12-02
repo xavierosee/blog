@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About Me
+seo_title: Meeting Xavier Rosée
 permalink: /about/
 ---
 
