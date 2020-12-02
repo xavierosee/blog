@@ -7,4 +7,3 @@ gem "jekyll-sitemap"
 gem "jekyll-archives"
 gem 'jekyll-target-blank'
 gem 'jekyll-feed'
-gem 'jekyll-seo-tag'

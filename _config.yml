@@ -42,7 +42,6 @@ plugins:
   - jekyll-archives
   - jekyll-target-blank
   - jekyll-feed
-  - jekyll-seo-tag
 
 paginate: 9
 paginate_path: "/page/:num"
