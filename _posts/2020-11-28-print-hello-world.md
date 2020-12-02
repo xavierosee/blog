@@ -7,7 +7,7 @@ image: /images/chris-ried-ieic5Tq8YMk-unsplash.jpg
 tags: featured meta
 photographer: Chris Ried
 handleofthephotographer: cdr6934
-summary: I’ve decided to make the most of the COVID-19 pandemic by pivoting my lifework and starting a career in Data Science Today I'm sharing 5 resources I've found useful to kickstart this change.
+summary: I’ve decided to make the most of the COVID-19 pandemic by pivoting my lifework and starting a career in Data Science. Today I'm sharing 5 resources I've found useful to kickstart this change.
 excerpt_separator: <!--more-->
 ---
 
