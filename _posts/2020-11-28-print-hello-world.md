@@ -1,6 +1,7 @@
 ---
 layout: post
 title: print('Hello World!')
+seo_title: 5 resources for launching a career in Data Science in 2020
 date: 2020-11-28 23:05:55 +0200
 image: /images/chris-ried-ieic5Tq8YMk-unsplash.jpg
 tags: featured meta

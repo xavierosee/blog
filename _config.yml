@@ -9,6 +9,7 @@ brand: Xavier Rosée
 author:
   name: Xavier Rosée
   image: '/images/xavier.jpg'
+  twitter: xavierosee
 
 # Contact links
 # Example of adding a new link to the footer - {name: "Github", icon: "ion-logo-github", link: "https://github.com"}
@@ -41,6 +42,7 @@ plugins:
   - jekyll-archives
   - jekyll-target-blank
   - jekyll-feed
+  - jekyll-seo-tag
 
 paginate: 9
 paginate_path: "/page/:num"
@@ -70,3 +72,21 @@ tag_permalink_style:  pretty
 sass:
   sass_dir: _sass
   style: compressed
+
+# SEO
+twitter:
+  username: xavierosee
+  card: summary
+
+social:
+  name: Xavier Rosée
+  links: 
+    - https://twitter.com/xavierosee
+    - https://www.facebook.com/xavierosee
+    - https://www.linkedin.com/in/xrosee
+    - https://github.com/xavierosee
+
+webmaster-verifications:
+  google: Bf33sq73BdZ6Y87VK0NSpxnzBRVIXfqw1AcgsguePRY
+  bing: 92ED59286A439C445807B3CD562366D3
+  yandex: 7a3dd8b527403c95
