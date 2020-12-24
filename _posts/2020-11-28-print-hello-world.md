@@ -4,7 +4,7 @@ title: print('Hello World!')
 seo_title: 5 resources for launching a career in Data Science in 2020
 date: 2020-11-28 23:05:55 +0200
 image: /images/chris-ried-ieic5Tq8YMk-unsplash.jpg
-tags: featured meta
+tags: meta
 photographer: Chris Ried
 handleofthephotographer: cdr6934
 summary: I’ve decided to make the most of the COVID-19 pandemic by pivoting my lifework and starting a career in Data Science. Today I'm sharing 5 resources I've found useful to kickstart this change.
@@ -40,13 +40,6 @@ In the meantime, more motivated than before, I’m consuming more and more conte
 As I’m getting started, I hope I can share more resources soon.
 
 What are your favorite Data Science resources to ramp up your skills?
-
----
-
-Photo by [{{ page.photographer }}][photographer_link] on [Unsplash][unsplash]
-
-[photographer_link]: <https://unsplash.com/@{{ page.handleofthephotographer }}?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText>
-[unsplash]: <https://unsplash.com?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText>
 
 [about]: https://xavierrosee.com/about/
 [statistics foundations]: www.linkedin.com/learning/statistics-foundations-1
