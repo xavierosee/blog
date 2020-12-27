@@ -18,7 +18,7 @@ contact:
 - {name: "Email", icon: "ion-ios-mail", link: "mailto:xavier@xavierrosee.com"}
 
 # Slider Section
-slider: # NOTE - By default, the slider is set to display tags. Now the slider shows the tag with the text "Featured". If you do not want to use the slider, leave the slider field empty.
+slider: featured # NOTE - By default, the slider is set to display tags. Now the slider shows the tag with the text "Featured". If you do not want to use the slider, leave the slider field empty.
 
 # Comment Section (Disqus)
 disqus-identifier: # add your shortname for Disqus Comment. For example mr-brown
