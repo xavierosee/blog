@@ -82,4 +82,4 @@ All in all, I'm very satisfied with the bootcamp. It's been an eye-opening exper
 [covid_impact_on_industry]: https://en.wikipedia.org/wiki/Impact_of_the_COVID-19_pandemic_on_the_video_game_industry#Sales
 [hello_world]: {% post_url 2020-11-28-print-hello-world %}
 
-[^1]: Having TA'd for Le Wagon, I've had to dive deeper into these concepts; I am today much more familiar with these than I was at the end of the bootcamp.
+[^1]: Since finishing the bootcamp, I've been a teaching assistant for Le Wagon, which forced me to dive deeper into these concepts; I am today much more familiar with these than I was at the end of the 9 weeks.
