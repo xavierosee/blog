@@ -23,12 +23,6 @@ slider: featured # NOTE - By default, the slider is set to display tags. Now the
 # Comment Section (Disqus)
 disqus-identifier: # add your shortname for Disqus Comment. For example mr-brown
 
-# Instagram Feed
-instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
-instagram-profile: https://www.instagram.com/xavierosee
-userID: 6716400487
-accessToken: 6716400487.1677ed0.4fae51c47bc544a895b81756a7d0c477
-
 # Google Analytics
 google-analytics: # Add your identifier. For example UA-99631805-1.
 

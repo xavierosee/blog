@@ -127,25 +127,6 @@ $(document).ready(function() {
 
 
   /* =======================
-  // Instagram Feed
-  ======================= */
-  var userId = $('#instafeed').attr('data-userId');
-  var accessToken = $('#instafeed').attr('data-accessToken');
-  var instagramFeed = new Instafeed({
-    get: 'user',
-    limit: 4,
-    resolution: 'standard_resolution',
-    userId: userId,
-    accessToken: accessToken,
-    template:
-      '<li class="instagram-item"><a href="{{link}}" class="instagram-link" aria-label="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}"></a></li>'
-  });
-
-  if ($('#instafeed').length) {
-    instagramFeed.run();
-  }
-
-  /* =======================
   // Scroll Top Button
   ======================= */
   $(".top").click(function() {
